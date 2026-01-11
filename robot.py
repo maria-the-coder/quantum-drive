@@ -72,7 +72,7 @@ def autonomous():
     brain.screen.print("Auto running")
     start_time = brain.timer.time()  
     global screen_precision
-    drivetrain.set_drive_velocity(150, PERCENT)
+    drivetrain.set_drive_velocity(100, PERCENT)
     intake_motor.set_velocity(100, PERCENT)
     conveyor_motor.set_velocity(100, PERCENT)
     drivetrain.turn_for(RIGHT, 60, DEGREES)
